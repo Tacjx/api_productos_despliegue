@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const productosRouter = require("./routes/productos");
 const errorHandler = require("./middlewares/errorHandler");
 
